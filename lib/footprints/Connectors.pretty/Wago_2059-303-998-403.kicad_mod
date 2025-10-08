@@ -1,0 +1,370 @@
+(footprint "Wago_2059-303-998-403"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3 Position Wire to Board Terminal Block Horizontal with Board pitch 0.118\" (pitch 3.00mm)")
+	(tags "Connector, Interconnector, Terminal Block, Wire to Board, Screwless, 1x03")
+	(property "Reference" "REF**"
+		(at 0 -5.9 0)
+		(layer "F.SilkS")
+		(uuid "f8e976a1-c62b-486a-8403-3dc1f9b7a485")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN3_2059-303/998-403_WAG"
+		(at 0 -8.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "18dee614-1543-4f7b-9d37-d3b0fad59080")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wago.priintcloud.com/datasheets/2059-303_998-403/en/"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bb24bad-7271-4913-bad4-bc1da6a1368f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD PCB TERMINAL BLOCK; 0.5 MM;"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b22298b2-835a-47a6-9f54-cc0fcb52f456")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "WAGO Corporation"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f46ca510-bce7-4583-b808-1562a5648a2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "MPN" "2059-303/998-403"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d16ef390-56f4-4539-87a0-cf8bbd36635e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "LCSC Part #" "C3309252"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "03987ed3-85ec-4e91-953d-ff619f8cee37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.577 -3.827)
+		(end -4.577 3.827)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "384226c9-e86f-42cd-b1cd-cbdc756e1479")
+	)
+	(fp_line
+		(start -4.577 3.827)
+		(end -4.031238 3.827)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6886795-df05-41cd-a457-dde90b7b5759")
+	)
+	(fp_line
+		(start -4.031238 -3.827)
+		(end -4.577 -3.827)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffd09b68-7d07-4ccb-97a7-6362f66c8a62")
+	)
+	(fp_line
+		(start -1.968758 3.827)
+		(end -1.031239 3.827)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db357ed4-c837-4725-8db3-8cd8596a9329")
+	)
+	(fp_line
+		(start -1.031239 -3.827)
+		(end -1.968758 -3.827)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "faa60a2c-33eb-4cec-82da-6cb7f67a1f0b")
+	)
+	(fp_line
+		(start 1.031241 3.827)
+		(end 1.96876 3.827)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1528495-945c-486b-9c44-1b7948b5e4bd")
+	)
+	(fp_line
+		(start 1.96876 -3.827)
+		(end 1.031241 -3.827)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c380f564-b80d-4eee-a68d-f862e103d018")
+	)
+	(fp_line
+		(start 4.03124 3.827)
+		(end 4.577003 3.827)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ceb00d94-a130-41ca-81fc-66531158b516")
+	)
+	(fp_line
+		(start 4.577003 -3.827)
+		(end 4.03124 -3.827)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2bbff4eb-09f0-46a0-98a5-8a5bb9590b56")
+	)
+	(fp_line
+		(start 4.577003 3.827)
+		(end 4.577003 -3.827)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "452e9788-2ec2-47e2-a039-901e173c9529")
+	)
+	(fp_circle
+		(center -6.354999 2.849999)
+		(end -5.973999 2.849999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "924ebd9f-1614-4efc-b907-bc43ba1c518a")
+	)
+	(fp_circle
+		(center -6.354999 2.849999)
+		(end -5.973999 2.849999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "6c2d402f-026d-4211-992e-3b9fc854a058")
+	)
+	(fp_line
+		(start -4.704 -4.853998)
+		(end -4.704 4.353999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b714897f-6893-4d88-a94e-4c23d135f1cd")
+	)
+	(fp_line
+		(start -4.704 4.353999)
+		(end 4.704003 4.353999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7eab9a44-47cd-4c95-b4ec-9b13e80f63b7")
+	)
+	(fp_line
+		(start 4.704003 -4.853998)
+		(end -4.704 -4.853998)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c4535b0-3dd5-4ccd-9c82-108e87098201")
+	)
+	(fp_line
+		(start 4.704003 4.353999)
+		(end 4.704003 -4.853998)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2cc0295-1d0b-451c-996b-e802e9262f6e")
+	)
+	(fp_line
+		(start -4.45 -3.7)
+		(end -4.45 3.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c7af383-6930-47a2-910e-4f8e387cf730")
+	)
+	(fp_line
+		(start -4.45 3.7)
+		(end 4.450003 3.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5804f70d-7951-4c51-8a83-0724d91220ed")
+	)
+	(fp_line
+		(start 4.450003 -3.7)
+		(end -4.45 -3.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13c97c95-9e35-48b5-873a-e71f3d2ec7a7")
+	)
+	(fp_line
+		(start 4.450003 3.7)
+		(end 4.450003 -3.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2f2f1a4-4160-4af1-abf6-df81d9e06629")
+	)
+	(fp_circle
+		(center -2.999998 4.754999)
+		(end -2.618998 4.754999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c3b87780-236e-4ada-9f07-fa1a18b7cfb4")
+	)
+	(fp_text user "Copyright 2016 Accelerated Designs. All rights reserved."
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(uuid "812f50f4-11ad-41ff-b75c-27767d180a8e")
+		(effects
+			(font
+				(size 0.127 0.127)
+				(thickness 0.002)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.999998 -3.349998)
+		(size 1.397 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "7937825b-5182-4257-a691-420b31e7a82f")
+	)
+	(pad "1" smd roundrect
+		(at -2.999998 2.849999)
+		(size 1.397 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "bf066732-a9ce-468f-887d-4a68e701118e")
+	)
+	(pad "2" smd roundrect
+		(at 0 -3.349998)
+		(size 1.397 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "46a6dfe6-1ee0-4eff-9b4f-c28832d8f136")
+	)
+	(pad "2" smd roundrect
+		(at 0 2.849999)
+		(size 1.397 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "3e19273f-12b5-4550-8aec-ad5a1fca1fd4")
+	)
+	(pad "3" smd roundrect
+		(at 3 -3.349998)
+		(size 1.397 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "8a752a6d-676e-4dcd-ac14-b6f665c05b17")
+	)
+	(pad "3" smd roundrect
+		(at 3 2.849999)
+		(size 1.397 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "a651b691-c647-427c-97df-7a477ab5b4b5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3dmodels/WAGO_2059-303_998-403.stp"
+		(offset
+			(xyz 4.45 -3.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

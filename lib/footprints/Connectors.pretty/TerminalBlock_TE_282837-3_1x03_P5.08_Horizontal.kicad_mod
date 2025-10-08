@@ -1,0 +1,179 @@
+(footprint "TerminalBlock_TE_282837-3_1x03_P5.08_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Terminal Block TE 282837-3, 3 pins, pitch 5.08mm, size 15.24x8.2mm")
+	(tags "Terminal Block, Connector, Interconnector, Wire to Board, Screw Terminal, Side Entry")
+	(property "Reference" "REF**"
+		(at 0 -5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eb27a024-2af9-46f1-a95f-a5b254e4273a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TerminalBlock_TE_282837-3_1x03_P5.08_Horizontal"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45010a28-2865-4105-9231-2bc1153df66b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.te.com/usa-en/product-282837-3.datasheet.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8381a6f8-2d77-4638-a367-e85428ba4a39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TERM BLK 3P SIDE ENT 5.08MM PCB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1ee5364-c982-436e-970b-7901fd5c37f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "TE Connectivity"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6d7f7fe3-5f7b-4058-a9bf-cec48c2aadb9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "MPN" "282837-3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f0f054aa-4419-4e09-b09c-ee363df095b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "LCSC Part #" "C589616"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5939189f-e1d9-413a-a945-d5795667d21d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.65 -4.21)
+		(end 12.81 4.21)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9f8e1644-4118-479e-99c3-90c6a1d23eab")
+	)
+	(fp_rect
+		(start -2.79 -4.35)
+		(end 12.95 4.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "73fd6691-8909-4133-9729-9fee4e86d8cd")
+	)
+	(fp_rect
+		(start -2.54 -4.1)
+		(end 12.7 4.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ddddc91a-a48b-4abc-ab8a-2a9388aa92c7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5212b72f-8ae2-4466-bd1c-f8e9bd43b125")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.116 2.116)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "a9a7fbac-cf88-400c-a296-56117e5c7f37")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2.116 2.116)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6100600c-8c2b-4745-8f12-f339ce599b0d")
+	)
+	(pad "3" thru_hole circle
+		(at 10.16 0)
+		(size 2.116 2.116)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ea4eb73-543b-42e0-b4ef-8a80d297b0fc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3dmodels/282837-3.step"
+		(offset
+			(xyz 5.08 -4.1 2.71)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

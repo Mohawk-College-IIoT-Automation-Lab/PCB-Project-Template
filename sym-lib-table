@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mohawk")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/mohawk.kicad_sym")(options "")(descr ""))
+)

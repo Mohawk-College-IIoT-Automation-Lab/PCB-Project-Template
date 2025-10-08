@@ -1,0 +1,193 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "6563d2a6-eaca-42cc-804d-9b88b6c54210",
+      "settings": {
+        "black_and_white": false,
+        "color_theme": "KiCad Classic",
+        "description": "",
+        "drawing_sheet": "",
+        "format": "pdf",
+        "hpgl_page_size": "default",
+        "hpgl_pen_size": 1.016,
+        "hpgl_plot_origin": "A3",
+        "min_pen_width": 847,
+        "output_dir": "",
+        "page_size": "A4",
+        "pdf_hierarchical_links": true,
+        "pdf_metadata": true,
+        "pdf_property_popups": true,
+        "plot_all": true,
+        "plot_drawing_sheet": true,
+        "use_background_color": true
+      },
+      "type": "sch_export_plot_pdf"
+    },
+    {
+      "description": "",
+      "id": "0609d9eb-3ff5-499f-9f4b-7619a8030159",
+      "settings": {
+        "bom_format_preset_name": "CSV",
+        "bom_preset_name": "",
+        "description": "",
+        "exclude_dnp": false,
+        "field_delimiter": ",",
+        "fields_group_by": [
+          "Value"
+        ],
+        "fields_labels": [
+          "Reference",
+          "Value",
+          "Footprint",
+          "Datasheet",
+          "Description",
+          "Qty",
+          "#"
+        ],
+        "fields_ordered": [
+          "Reference",
+          "Value",
+          "Footprint",
+          "Datasheet",
+          "Description",
+          "${QUANTITY}",
+          "${ITEM_NUMBER}"
+        ],
+        "filter_string": "",
+        "include_excluded_from_bom": true,
+        "keep_line_breaks": false,
+        "keep_tabs": false,
+        "output_filename": "${Project}_Rev-${Revision}_${CURRENT_DATE}.csv",
+        "ref_delimiter": ",",
+        "ref_range_delimiter": "",
+        "sort_asc": true,
+        "sort_field": "Reference",
+        "string_delimiter": "\""
+      },
+      "type": "sch_export_bom"
+    },
+    {
+      "description": "",
+      "id": "b76e22f3-41a3-4b52-81fc-0c0d9865f4cb",
+      "settings": {
+        "board_only": false,
+        "board_outlines_chaining_epsilon": 0.01,
+        "cut_vias_in_body": true,
+        "description": "",
+        "export_board_body": true,
+        "export_components": true,
+        "export_inner_copper": false,
+        "export_pads": false,
+        "export_silkscreen": false,
+        "export_soldermask": false,
+        "export_tracks": false,
+        "export_zones": false,
+        "fill_all_vias": false,
+        "format": "step",
+        "fuse_shapes": false,
+        "include_dnp": true,
+        "include_unspecified": true,
+        "occt_format": 0,
+        "optimize_step": true,
+        "output_filename": "${Project}_Rev-${Revision}_${CURRENT_DATE}.step",
+        "overwrite": false,
+        "subst_models": true,
+        "use_defined_origin": false,
+        "use_drill_origin": false,
+        "use_grid_origin": false,
+        "use_pcb_center_origin": true,
+        "user_origin.x": 0.0,
+        "user_origin.y": 0.0,
+        "vrml_model_dir": "",
+        "vrml_relative_paths": false
+      },
+      "type": "pcb_export_3d"
+    },
+    {
+      "description": "Copy Project file",
+      "id": "31902863-33ab-4fef-8a9b-7d6ef4826e93",
+      "settings": {
+        "description": "",
+        "dest": "",
+        "output_filename": "",
+        "overwrite": true,
+        "source": "${KIPRJMOD}/${PROJECTNAME}.kicad_pro",
+        "zero_copies_error": false
+      },
+      "type": "special_copyfiles"
+    },
+    {
+      "description": "Copy Root Schematic Sheet",
+      "id": "e03f6a1d-8525-4159-afb2-929bf3db0818",
+      "settings": {
+        "description": "",
+        "dest": "",
+        "output_filename": "",
+        "overwrite": true,
+        "source": "${KIPRJMOD}/${PROJECTNAME}.kicad_sch",
+        "zero_copies_error": false
+      },
+      "type": "special_copyfiles"
+    },
+    {
+      "description": "Copy PCB",
+      "id": "891950f3-0c44-4ab7-b3c3-75027481ebc9",
+      "settings": {
+        "description": "",
+        "dest": "",
+        "output_filename": "",
+        "overwrite": true,
+        "source": "${KIPRJMOD}/${PROJECTNAME}.kicad_pcb",
+        "zero_copies_error": false
+      },
+      "type": "special_copyfiles"
+    },
+    {
+      "description": "Copy library",
+      "id": "1c0c580a-cd8d-48b8-9e1b-6c9b20384587",
+      "settings": {
+        "description": "",
+        "dest": "",
+        "output_filename": "",
+        "overwrite": true,
+        "source": "${KIPRJMOD}/lib",
+        "zero_copies_error": false
+      },
+      "type": "special_copyfiles"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "Schematic, BOM, 3D",
+      "id": "da335c8f-2151-4342-a7e1-8fb4c6a8e30a",
+      "only": [
+        "6563d2a6-eaca-42cc-804d-9b88b6c54210",
+        "0609d9eb-3ff5-499f-9f4b-7619a8030159",
+        "b76e22f3-41a3-4b52-81fc-0c0d9865f4cb"
+      ],
+      "settings": {
+        "output_path": "${KIPRJMOD}/${Project}_Revision-${Revision}_Release/"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "Project Snapshot",
+      "id": "594029e8-4cb2-4f36-8bc8-68297dde646b",
+      "only": [
+        "31902863-33ab-4fef-8a9b-7d6ef4826e93",
+        "e03f6a1d-8525-4159-afb2-929bf3db0818",
+        "891950f3-0c44-4ab7-b3c3-75027481ebc9",
+        "1c0c580a-cd8d-48b8-9e1b-6c9b20384587"
+      ],
+      "settings": {
+        "format": "zip",
+        "output_path": "${KIPRJMOD}/${Project}_Revision-${Revision}_Release/${Project}_Revision-${Revision}_Snapshot.zip"
+      },
+      "type": "archive"
+    }
+  ]
+}
