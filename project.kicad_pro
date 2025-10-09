@@ -452,7 +452,8 @@
       "IC",
       "Inductors",
       "Logos",
-      "Semiconductors"
+      "Semiconductors",
+      "DevKits"
     ],
     "pinned_symbol_libs": [
       "mohawk"
