@@ -118,14 +118,14 @@
       "type": "special_copyfiles"
     },
     {
-      "description": "Copy Root Schematic Sheet",
+      "description": "Copy Schematic Sheets",
       "id": "e03f6a1d-8525-4159-afb2-929bf3db0818",
       "settings": {
         "description": "",
         "dest": "",
         "output_filename": "",
         "overwrite": true,
-        "source": "${KIPRJMOD}/${PROJECTNAME}.kicad_sch",
+        "source": "${KIPRJMOD}/*.kicad_sch",
         "zero_copies_error": false
       },
       "type": "special_copyfiles"
