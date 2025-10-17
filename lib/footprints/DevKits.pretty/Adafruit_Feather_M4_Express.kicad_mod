@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Microcontroller module with ATSAMD51J19 Cortex-M4 MCU and SPI Flash"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -51,6 +51,39 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Adafruit"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "d4d2e559-9cb9-4e39-ba43-1f279e5ed8bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "MPN" "3857"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "311d488c-0dcd-4d89-83ee-68812bcf1597")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Product Link" "https://www.adafruit.com/product/3857"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "c488a65e-d7b6-4a43-acf8-91242af1b631")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)

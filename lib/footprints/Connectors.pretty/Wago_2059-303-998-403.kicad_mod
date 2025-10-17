@@ -76,7 +76,7 @@
 			)
 		)
 	)
-	(property "LCSC Part #" "C3309252"
+	(property "Product Link" "https://www.wago.com/ca-en/pcb-terminal-blocks-and-pluggable-connectors/smd-pcb-terminal-block/p/2059-303_998-403#details"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -211,85 +211,27 @@
 		(layer "B.SilkS")
 		(uuid "6c2d402f-026d-4211-992e-3b9fc854a058")
 	)
-	(fp_line
+	(fp_rect
 		(start -4.704 -4.853998)
-		(end -4.704 4.353999)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "b714897f-6893-4d88-a94e-4c23d135f1cd")
-	)
-	(fp_line
-		(start -4.704 4.353999)
 		(end 4.704003 4.353999)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "7eab9a44-47cd-4c95-b4ec-9b13e80f63b7")
+		(uuid "72be54f6-1b68-47c7-b1ed-82d521d1712a")
 	)
-	(fp_line
-		(start 4.704003 -4.853998)
-		(end -4.704 -4.853998)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "0c4535b0-3dd5-4ccd-9c82-108e87098201")
-	)
-	(fp_line
-		(start 4.704003 4.353999)
-		(end 4.704003 -4.853998)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "f2cc0295-1d0b-451c-996b-e802e9262f6e")
-	)
-	(fp_line
+	(fp_rect
 		(start -4.45 -3.7)
-		(end -4.45 3.7)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "6c7af383-6930-47a2-910e-4f8e387cf730")
-	)
-	(fp_line
-		(start -4.45 3.7)
 		(end 4.450003 3.7)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "5804f70d-7951-4c51-8a83-0724d91220ed")
-	)
-	(fp_line
-		(start 4.450003 -3.7)
-		(end -4.45 -3.7)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "13c97c95-9e35-48b5-873a-e71f3d2ec7a7")
-	)
-	(fp_line
-		(start 4.450003 3.7)
-		(end 4.450003 -3.7)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "f2f2f1a4-4160-4af1-abf6-df81d9e06629")
+		(uuid "8493c59e-a5fb-45e3-b42b-54e80d3a48ef")
 	)
 	(fp_circle
 		(center -2.999998 4.754999)
@@ -356,7 +298,7 @@
 		(uuid "a651b691-c647-427c-97df-7a477ab5b4b5")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/3dmodels/WAGO_2059-303_998-403.stp"
+	(model "${KIPRJMOD}/lib/3dmodels/Connectors.3dshapes/Wago_2059-303-998-403.stp"
 		(offset
 			(xyz 4.45 -3.7 0)
 		)

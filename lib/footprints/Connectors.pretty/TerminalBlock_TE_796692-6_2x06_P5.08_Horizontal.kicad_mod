@@ -4,6 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TERM BLK 6P SIDE ENT 5.08MM PCB")
+	(tags "Terminal Block, Connector, Interconnector, Wire to Board, Screw Terminal, Side Entry")
 	(property "Reference" "REF**"
 		(at 0 -10.16 0)
 		(unlocked yes)
@@ -54,7 +55,43 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(property "Manufacturer" "TE Connectivity"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "83a41011-d7b5-42b3-8a45-f32f25ef52e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "MPN" "796692-6"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "14a75d24-c6a9-469b-8390-82865aa55d3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Product Link" "https://www.te.com/en/product-796692-6.html"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "108a0f55-b55a-4513-9f97-d12641b2a35b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole exclude_from_bom)
 	(fp_line
 		(start -4.61 -2.65)
 		(end -4.61 28.05)
@@ -326,7 +363,7 @@
 		(uuid "e9bf8734-affb-4b57-8363-4cae0d50a58d")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/3dmodels/796692-6.STEP"
+	(model "${KIPRJMOD}/lib/3dmodels/Connectors.3dshapes/TerminalBlock_TE_796692-6_2x06_P5.08_Horizontal.STEP"
 		(offset
 			(xyz 17 -10.16 7.5)
 		)

@@ -80,19 +80,7 @@
 			)
 		)
 	)
-	(property "LCSC Part #" "C589616"
-		(at 0 0 0)
-		(layer "F.SilkS")
-		(hide yes)
-		(uuid "5939189f-e1d9-413a-a945-d5795667d21d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(attr through_hole)
+	(attr through_hole exclude_from_bom)
 	(fp_rect
 		(start -2.65 -4.21)
 		(end 12.81 4.21)
@@ -165,7 +153,7 @@
 		(uuid "0ea4eb73-543b-42e0-b4ef-8a80d297b0fc")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/3dmodels/282837-3.step"
+	(model "${KIPRJMOD}/lib/3dmodels/Connectors.3dshapes/TerminalBlock_TE_282837-3_1x03_P5.08_Horizontal.step"
 		(offset
 			(xyz 5.08 -4.1 2.71)
 		)

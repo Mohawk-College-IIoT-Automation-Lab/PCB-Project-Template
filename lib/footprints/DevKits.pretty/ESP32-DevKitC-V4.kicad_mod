@@ -51,6 +51,17 @@
 			)
 		)
 	)
+	(property "Manufacturer" "Espressif"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "3d5d393c-b9e4-49ab-bd17-f81b389f9198")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr through_hole)
 	(fp_line
 		(start -13.95 -24.1)
@@ -194,6 +205,16 @@
 		(uuid "a2b472ae-0ebf-472e-8479-8cf1333eb388")
 	)
 	(fp_line
+		(start -14.2 -30.55)
+		(end 14.12 -30.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e30aa33-2636-4a08-b7ab-86c115951a94")
+	)
+	(fp_line
 		(start -14.2 24.38)
 		(end -4.32 24.38)
 		(stroke
@@ -202,16 +223,6 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "fd39b4f0-56ad-4cad-acc7-d25884d7ae6b")
-	)
-	(fp_line
-		(start -14.12 -30.55)
-		(end 14.12 -30.55)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "7e30aa33-2636-4a08-b7ab-86c115951a94")
 	)
 	(fp_line
 		(start -4.32 24.38)
@@ -284,16 +295,6 @@
 		(uuid "eb6934e9-172f-4ec6-b23b-41fbe2b6b0d3")
 	)
 	(fp_line
-		(start -9 -30.3)
-		(end 9 -30.3)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "3d7995d1-cd4c-4e94-9575-0d56a4a477e8")
-	)
-	(fp_line
 		(start -9 -24.1)
 		(end -13.95 -24.1)
 		(stroke
@@ -302,16 +303,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "d9711185-fdba-4c38-be2a-26fce7060012")
-	)
-	(fp_line
-		(start -9 -24.1)
-		(end -9 -30.3)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "b5c1a2db-8be2-4c9a-88bc-09be8b44ce8d")
 	)
 	(fp_line
 		(start -4.07 24.1)
@@ -354,26 +345,6 @@
 		(uuid "754db4f6-e856-47fc-a00b-2c3384e608d0")
 	)
 	(fp_line
-		(start 9 -30.3)
-		(end 9 -24.1)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "af66a4f3-961b-40d6-9d1b-862e27e18710")
-	)
-	(fp_line
-		(start 9 -24.1)
-		(end -9 -24.1)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "f13e3250-727a-4f48-971c-5360aced7158")
-	)
-	(fp_line
 		(start 13.95 -24.1)
 		(end 9 -24.1)
 		(stroke
@@ -392,6 +363,17 @@
 		)
 		(layer "F.Fab")
 		(uuid "1f48163b-82fd-4113-8b9f-9cb17dad9462")
+	)
+	(fp_rect
+		(start -9 -30.3)
+		(end 9 -24.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "84b04eaf-a3ec-4168-9b83-24698e0ec141")
 	)
 	(fp_circle
 		(center -14.57 -22.97)
@@ -772,6 +754,14 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "89574578-9177-43e5-9b2d-5c947fbf8e6e")
+	)
+	(group ""
+		(uuid "d2cf164c-faac-4c34-8a73-4ef1d3275c2d")
+		(members "0adfc0eb-e421-4f71-8ca3-496ab444f2a1" "3311a4cb-4a03-4d1b-a486-7d1d5782a935"
+			"3f3248ae-5012-4edc-9891-ba6b1a3b799b" "7e30aa33-2636-4a08-b7ab-86c115951a94"
+			"a2b472ae-0ebf-472e-8479-8cf1333eb388" "bc92d9c1-2a72-49e3-91d2-78c9b59699ff"
+			"d2fea204-ae01-49d8-a23d-bfbace61ceb9" "fd39b4f0-56ad-4cad-acc7-d25884d7ae6b"
+		)
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/3dmodels/DevKits.3dshapes/ESP32-DEVKITC.step"

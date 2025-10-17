@@ -51,7 +51,43 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(property "Manufacturer" "Molex"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e264cbb9-41d6-49ef-9952-d467df220618")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "MPN" "39303035"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "65d340fe-fa99-46f9-8ed0-9d02888a33ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Product Link" "https://www.molex.com/en-us/products/part-detail/39303035"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "abc7ea92-4438-43a8-9716-8ebdf1b54cab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole exclude_from_bom)
 	(fp_circle
 		(center -8.4 0)
 		(end -7.7869 0)
@@ -244,65 +280,16 @@
 		(layer "F.SilkS")
 		(uuid "e7e7d1b2-c7e0-46a6-b554-988968eff3b3")
 	)
-	(fp_line
+	(fp_rect
 		(start -12.37 -1.805)
-		(end 3.97 -1.805)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "d60672f1-4038-439a-a12a-63cca64d6654")
-	)
-	(fp_line
-		(start -12.37 14.82)
-		(end -12.37 -1.805)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "5759b224-e6f9-4c21-8e11-a1965a718f2c")
-	)
-	(fp_line
-		(start 3.97 -1.805)
 		(end 3.97 14.82)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "3eda1ad7-2ff0-4197-8468-83708c2638c8")
-	)
-	(fp_line
-		(start 3.97 14.82)
-		(end -12.37 14.82)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "d7982744-593f-4b16-a3a4-f82ec7c7522f")
-	)
-	(fp_line
-		(start -11.1 -0.535)
-		(end 2.7 -0.535)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "38be1fef-0ff3-408b-9e72-0458fb545650")
-	)
-	(fp_line
-		(start -11.1 13.55)
-		(end -11.1 -0.535)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "e2f0a1ee-44bf-4d99-99b1-26c9954e5746")
+		(uuid "dc9db30e-e377-4e8a-80c5-2841300a72a8")
 	)
 	(fp_line
 		(start -0.4 -2.757)
@@ -334,25 +321,16 @@
 		(layer "F.Fab")
 		(uuid "b9cb53e9-bf9b-439a-8ac7-f13a77be3931")
 	)
-	(fp_line
-		(start 2.7 -0.535)
+	(fp_rect
+		(start -11.1 -0.535)
 		(end 2.7 13.55)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "ebecfb1e-92a1-4ccd-b43b-cff50e29d7e3")
-	)
-	(fp_line
-		(start 2.7 13.55)
-		(end -11.1 13.55)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "2b85b248-4f3f-46f5-af92-cf512b322924")
+		(uuid "a130a06f-cbca-4fa4-bbc2-1e8e4748222c")
 	)
 	(fp_text user "NPTH D3.00+/-0.05"
 		(at -12.4 -2.365 0)
@@ -422,7 +400,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/3dmodels/molex_39303035.step"
+	(model "${KIPRJMOD}/lib/3dmodels/Connectors.3dshapes/Molex_Mini-Fit_Jr_5569-03A4_3x01_P4.20mm_Horizontal.step"
 		(offset
 			(xyz -4.2 -7.3 0)
 		)

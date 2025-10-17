@@ -79,7 +79,7 @@
 			)
 		)
 	)
-	(property "LCSC Part #" "C592976"
+	(property "Product Link" "https://www.te.com/en/product-282837-2.html"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -91,31 +91,7 @@
 			)
 		)
 	)
-	(property "Digikey Part #" "A113320-ND"
-		(at 0 0 0)
-		(layer "F.SilkS")
-		(hide yes)
-		(uuid "47a3a56e-87fd-4ce0-948b-298f74b092ef")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-		)
-	)
-	(property "Product Link" "https://www.te.com/en/product-282837-2.html"
-		(at 0 0 0)
-		(layer "F.SilkS")
-		(hide yes)
-		(uuid "47e2b064-08d8-4852-8df2-f5411fc777bb")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-		)
-	)
-	(attr through_hole)
+	(attr through_hole exclude_from_bom)
 	(fp_rect
 		(start -4.21 -2.65)
 		(end 4.21 7.73)
@@ -180,7 +156,7 @@
 		(uuid "88222c03-b9c7-457c-b8f2-89d7bb30e276")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/3dmodels/282837-2.STEP"
+	(model "${KIPRJMOD}/lib/3dmodels/Connectors.3dshapes/TerminalBlock_TE_282837-2_1x02_P5.08_Horizontal.STEP"
 		(offset
 			(xyz 0 -2.54 0)
 		)
