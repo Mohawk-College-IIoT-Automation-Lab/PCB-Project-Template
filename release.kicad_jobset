@@ -31,31 +31,42 @@
         "bom_format_preset_name": "CSV",
         "bom_preset_name": "",
         "description": "",
-        "exclude_dnp": false,
+        "exclude_dnp": true,
         "field_delimiter": ",",
         "fields_group_by": [
-          "Value"
+          "MPN",
+          "Description"
         ],
         "fields_labels": [
           "Reference",
           "Value",
           "Footprint",
           "Datasheet",
+          "MPN",
           "Description",
           "Qty",
-          "#"
+          "#",
+          "Manufacturer",
+          "LCSC #",
+          "Distributor",
+          "Product Link"
         ],
         "fields_ordered": [
-          "Reference",
-          "Value",
-          "Footprint",
-          "Datasheet",
+          "__Reference",
+          "__Value",
+          "__Footprint",
+          "__Datasheet",
+          "MPN",
           "Description",
           "${QUANTITY}",
-          "${ITEM_NUMBER}"
+          "__${ITEM_NUMBER}",
+          "__Manufacturer",
+          "__LCSC #",
+          "Distributor",
+          "Product Link"
         ],
         "filter_string": "",
-        "include_excluded_from_bom": true,
+        "include_excluded_from_bom": false,
         "keep_line_breaks": false,
         "keep_tabs": false,
         "output_filename": "${Project}_Rev-${Revision}_${CURRENT_DATE}.csv",
