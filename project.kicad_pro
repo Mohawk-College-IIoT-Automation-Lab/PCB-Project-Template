@@ -604,6 +604,11 @@
           "name": "Product Link",
           "url": true,
           "visible": false
+        },
+        {
+          "name": "Distributor",
+          "url": false,
+          "visible": false
         }
       ],
       "intersheets_ref_own_page": false,
