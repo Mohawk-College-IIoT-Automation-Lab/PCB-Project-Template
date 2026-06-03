@@ -7,7 +7,7 @@
 	(title_block
 		(title "${Project}")
 		(rev "${Revision}")
-		(company "${Department}, ${Company}")
+		(company "${Company} ${Department} ${Team}")
 		(comment 1 "${Author}")
 	)
 	(lib_symbols)

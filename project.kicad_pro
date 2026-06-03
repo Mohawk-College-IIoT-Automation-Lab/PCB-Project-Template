@@ -647,9 +647,10 @@
   ],
   "text_variables": {
     "Author": "Your Name",
-    "Company": "Mohawk IDEAWORKS",
-    "Department": "Sensor Systems and IoT Lab",
+    "Company": "Mohawk College",
+    "Department": "IDEAWORKS",
     "Project": "Project Name",
-    "Revision": "A"
+    "Revision": "A",
+    "Team": "Sensor Systems and IoT Lab"
   }
 }
