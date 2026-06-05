@@ -598,7 +598,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/lib/3dmodels/DevKits.3dshapes/3857 Adafruit Feather M4 Express.step"
+	(model "${KIPRJMOD}/lib/3dmodels/DevKits.3dshapes/Adafruit_Feather_M4_Express.step"
 		(offset
 			(xyz -1.27 6.35 10)
 		)
