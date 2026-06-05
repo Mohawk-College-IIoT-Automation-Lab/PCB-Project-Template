@@ -7,7 +7,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "A"
-			(at 15.24 -40.64 0)
+			(at 5.08 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "Adafruit_Feather_M4_Express"
-			(at 10.16 2.286 0)
+			(at 0 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "DevKits:Adafruit_Feather_M4_Express"
-			(at -0.762 10.414 0)
+			(at -10.922 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m4-express-atsamd51.pdf"
-			(at 0 0 0)
+			(at -10.16 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,7 +50,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit"
-			(at 0 0 0)
+			(at -10.16 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			)
 		)
 		(property "MPN" "3857"
-			(at 0 0 0)
+			(at -10.16 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68,7 +68,7 @@
 			)
 		)
 		(property "LSCS Part #" "N/A"
-			(at 0 0 0)
+			(at -10.16 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,7 +77,7 @@
 			)
 		)
 		(property "Product Link" "https://www.adafruit.com/product/3857"
-			(at 0 0 0)
+			(at -10.16 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94,22 +94,20 @@
 				(hide yes)
 			)
 		)
-		(symbol "Adafruit_Feather_M4_Express_0_1"
+		(symbol "Adafruit_Feather_M4_Express_1_1"
 			(rectangle
-				(start 2.54 1.27)
-				(end 17.78 -39.37)
+				(start -7.62 20.32)
+				(end 7.62 -20.32)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "Adafruit_Feather_M4_Express_1_1"
 			(pin input inverted
-				(at 0 0 0)
+				(at -10.16 19.05 0)
 				(length 2.54)
 				(name "RESET"
 					(effects
@@ -127,7 +125,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -2.54 0)
+				(at -10.16 16.51 0)
 				(length 2.54)
 				(name "3V"
 					(effects
@@ -145,7 +143,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -5.08 0)
+				(at -10.16 13.97 0)
 				(length 2.54)
 				(name "Aref"
 					(effects
@@ -163,7 +161,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -7.62 0)
+				(at -10.16 11.43 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -181,7 +179,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -10.16 0)
+				(at -10.16 8.89 0)
 				(length 2.54)
 				(name "A0"
 					(effects
@@ -200,7 +198,7 @@
 				(alternate "DAC0" output line)
 			)
 			(pin input line
-				(at 0 -12.7 0)
+				(at -10.16 6.35 0)
 				(length 2.54)
 				(name "A1"
 					(effects
@@ -219,7 +217,7 @@
 				(alternate "DAC1" output line)
 			)
 			(pin input line
-				(at 0 -15.24 0)
+				(at -10.16 3.81 0)
 				(length 2.54)
 				(name "A2"
 					(effects
@@ -237,7 +235,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -17.78 0)
+				(at -10.16 1.27 0)
 				(length 2.54)
 				(name "A3"
 					(effects
@@ -255,7 +253,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -20.32 0)
+				(at -10.16 -1.27 0)
 				(length 2.54)
 				(name "A4"
 					(effects
@@ -273,7 +271,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -22.86 0)
+				(at -10.16 -3.81 0)
 				(length 2.54)
 				(name "A5"
 					(effects
@@ -291,7 +289,7 @@
 				)
 			)
 			(pin output clock
-				(at 0 -25.4 0)
+				(at -10.16 -6.35 0)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -310,7 +308,7 @@
 				(alternate "GPIO25" bidirectional line)
 			)
 			(pin output line
-				(at 0 -27.94 0)
+				(at -10.16 -8.89 0)
 				(length 2.54)
 				(name "MOSI"
 					(effects
@@ -329,7 +327,7 @@
 				(alternate "GPIO24" bidirectional line)
 			)
 			(pin input line
-				(at 0 -30.48 0)
+				(at -10.16 -11.43 0)
 				(length 2.54)
 				(name "MISO"
 					(effects
@@ -348,7 +346,7 @@
 				(alternate "GPIO23" bidirectional line)
 			)
 			(pin output line
-				(at 0 -33.02 0)
+				(at -10.16 -13.97 0)
 				(length 2.54)
 				(name "RX"
 					(effects
@@ -367,7 +365,7 @@
 				(alternate "GPIO0" bidirectional line)
 			)
 			(pin input line
-				(at 0 -35.56 0)
+				(at -10.16 -16.51 0)
 				(length 2.54)
 				(name "TX"
 					(effects
@@ -386,7 +384,7 @@
 				(alternate "GPIO1" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -38.1 0)
+				(at -10.16 -19.05 0)
 				(length 2.54)
 				(name "GPIO4"
 					(effects
@@ -404,7 +402,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 0 180)
+				(at 10.16 19.05 180)
 				(length 2.54)
 				(name "BAT"
 					(effects
@@ -422,7 +420,7 @@
 				)
 			)
 			(pin input inverted
-				(at 20.32 -2.54 180)
+				(at 10.16 16.51 180)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -440,7 +438,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -5.08 180)
+				(at 10.16 13.97 180)
 				(length 2.54)
 				(name "USB"
 					(effects
@@ -459,7 +457,7 @@
 				(alternate "5V" power_out line)
 			)
 			(pin bidirectional line
-				(at 20.32 -17.78 180)
+				(at 10.16 1.27 180)
 				(length 2.54)
 				(name "GPIO13"
 					(effects
@@ -477,7 +475,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -20.32 180)
+				(at 10.16 -1.27 180)
 				(length 2.54)
 				(name "GPIO12"
 					(effects
@@ -495,7 +493,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -22.86 180)
+				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name "GPIO11"
 					(effects
@@ -513,7 +511,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -25.4 180)
+				(at 10.16 -6.35 180)
 				(length 2.54)
 				(name "GPIO10"
 					(effects
@@ -531,7 +529,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -27.94 180)
+				(at 10.16 -8.89 180)
 				(length 2.54)
 				(name "GPIO9"
 					(effects
@@ -549,7 +547,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -30.48 180)
+				(at 10.16 -11.43 180)
 				(length 2.54)
 				(name "GPIO6"
 					(effects
@@ -567,7 +565,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -33.02 180)
+				(at 10.16 -13.97 180)
 				(length 2.54)
 				(name "GPIO5"
 					(effects
@@ -585,7 +583,7 @@
 				)
 			)
 			(pin output clock
-				(at 20.32 -35.56 180)
+				(at 10.16 -16.51 180)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -604,7 +602,7 @@
 				(alternate "GPIO22" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 20.32 -38.1 180)
+				(at 10.16 -19.05 180)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -630,7 +628,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 15.494 -26.416 0)
+			(at 6.604 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -646,7 +644,7 @@
 			)
 		)
 		(property "Footprint" "Connectors:EBYTE_E22_DEVKIT_HAT"
-			(at 0 0 0)
+			(at -8.89 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -655,7 +653,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://ebyte_e22-400t37s_lora_test_board.pdf"
-			(at 1.016 2.794 0)
+			(at -7.874 15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,7 +671,7 @@
 			)
 		)
 		(property "Manufacturer" "Ebyte"
-			(at 0 0 0)
+			(at -8.89 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -682,7 +680,7 @@
 			)
 		)
 		(property "MPN" "e22-400t37s"
-			(at 0 0 0)
+			(at -8.89 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -691,7 +689,7 @@
 			)
 		)
 		(property "LSCS Part #" "N/A"
-			(at 0 0 0)
+			(at -8.89 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -700,7 +698,7 @@
 			)
 		)
 		(property "Product Link" "https://www.cdebyte.com/products/E22-400TBH-02"
-			(at 0 0 0)
+			(at -8.89 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,22 +715,20 @@
 				(hide yes)
 			)
 		)
-		(symbol "EBYTE_E22_DEVKIT_HAT_0_1"
+		(symbol "EBYTE_E22_DEVKIT_HAT_1_1"
 			(rectangle
-				(start 0 0)
-				(end 17.78 -25.4)
+				(start -8.89 12.7)
+				(end 8.89 -12.7)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "EBYTE_E22_DEVKIT_HAT_1_1"
 			(pin power_in line
-				(at -5.08 -1.27 0)
+				(at -13.97 11.43 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -750,7 +746,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -3.81 0)
+				(at -13.97 8.89 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -768,7 +764,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -6.35 0)
+				(at -13.97 6.35 0)
 				(length 5.08)
 				(name "RESET"
 					(effects
@@ -786,7 +782,7 @@
 				)
 			)
 			(pin output line
-				(at -5.08 -8.89 0)
+				(at -13.97 3.81 0)
 				(length 5.08)
 				(name "AUX"
 					(effects
@@ -804,7 +800,7 @@
 				)
 			)
 			(pin output line
-				(at -5.08 -11.43 0)
+				(at -13.97 1.27 0)
 				(length 5.08)
 				(name "TXD"
 					(effects
@@ -822,7 +818,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -13.97 0)
+				(at -13.97 -1.27 0)
 				(length 5.08)
 				(name "RXD"
 					(effects
@@ -840,7 +836,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -16.51 0)
+				(at -13.97 -3.81 0)
 				(length 5.08)
 				(name "M1"
 					(effects
@@ -858,7 +854,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -19.05 0)
+				(at -13.97 -6.35 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -876,7 +872,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -21.59 0)
+				(at -13.97 -8.89 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -894,7 +890,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -24.13 0)
+				(at -13.97 -11.43 0)
 				(length 5.08)
 				(name "M0"
 					(effects
@@ -912,7 +908,7 @@
 				)
 			)
 			(pin power_out line
-				(at 22.86 -1.27 180)
+				(at 13.97 11.43 180)
 				(length 5.08)
 				(name "3.3V"
 					(effects
@@ -930,7 +926,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -3.81 180)
+				(at 13.97 8.89 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -948,7 +944,7 @@
 				)
 			)
 			(pin output clock
-				(at 22.86 -6.35 180)
+				(at 13.97 6.35 180)
 				(length 5.08)
 				(name "SWCLK"
 					(effects
@@ -966,7 +962,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -8.89 180)
+				(at 13.97 3.81 180)
 				(length 5.08)
 				(name "SWDIO"
 					(effects
@@ -984,7 +980,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 22.86 -11.43 180)
+				(at 13.97 1.27 180)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -1002,7 +998,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 22.86 -13.97 180)
+				(at 13.97 -1.27 180)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -1020,7 +1016,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 22.86 -16.51 180)
+				(at 13.97 -3.81 180)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -1038,7 +1034,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -19.05 180)
+				(at 13.97 -6.35 180)
 				(length 5.08)
 				(name "485-EN"
 					(effects
@@ -1056,7 +1052,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 -21.59 180)
+				(at 13.97 -8.89 180)
 				(length 5.08)
 				(name "STATE"
 					(effects
@@ -1074,7 +1070,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -24.13 180)
+				(at 13.97 -11.43 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -32442,12 +32438,735 @@
 			)
 		)
 	)
+	(symbol "Heltec_v3"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -21.082 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Heltec V3"
+			(at 1.524 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DevKits:Heltec-V3"
+			(at -12.192 -34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA_V3.2.pdf"
+			(at -12.192 -32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -21.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LoRa, Wifi, BLE, Heltec"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Heltec_v3_1_1"
+			(rectangle
+				(start -21.59 21.59)
+				(end 21.59 -21.59)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -24.13 20.32 0)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "5V" power_out line)
+			)
+			(pin power_out line
+				(at -24.13 17.78 0)
+				(length 2.54)
+				(name "Ve"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -24.13 15.24 0)
+				(length 2.54)
+				(name "Ve"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -24.13 12.7 0)
+				(length 2.54)
+				(name "RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -24.13 10.16 0)
+				(length 2.54)
+				(name "TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 7.62 0)
+				(length 2.54)
+				(name "RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -24.13 5.08 0)
+				(length 2.54)
+				(name "GPIO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -24.13 2.54 0)
+				(length 2.54)
+				(name "GPIO36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -24.13 0 0)
+				(length 2.54)
+				(name "GPIO35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -24.13 -2.54 0)
+				(length 2.54)
+				(name "GPIO34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -24.13 -5.08 0)
+				(length 2.54)
+				(name "GPIO33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -24.13 -7.62 0)
+				(length 2.54)
+				(name "GPIO47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -24.13 -10.16 0)
+				(length 2.54)
+				(name "GPIO48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -24.13 -12.7 0)
+				(length 2.54)
+				(name "GPIO26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -24.13 -15.24 0)
+				(length 2.54)
+				(name "GPIO21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -24.13 -17.78 0)
+				(length 2.54)
+				(name "GPIO20/ADC2_CH9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -24.13 -20.32 0)
+				(length 2.54)
+				(name "GPIO19/ADC2_CH8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 -24.13 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 -24.13 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 24.13 20.32 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "3V3" power_out line)
+			)
+			(pin power_in line
+				(at 24.13 17.78 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "3V3" power_out line)
+			)
+			(pin bidirectional line
+				(at 24.13 15.24 180)
+				(length 2.54)
+				(name "GPIO37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 12.7 180)
+				(length 2.54)
+				(name "GPIO46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 10.16 180)
+				(length 2.54)
+				(name "GPIO45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 7.62 180)
+				(length 2.54)
+				(name "GPIO42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 5.08 180)
+				(length 2.54)
+				(name "GPIO41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 2.54 180)
+				(length 2.54)
+				(name "GPIO40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 0 180)
+				(length 2.54)
+				(name "GPIO39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -2.54 180)
+				(length 2.54)
+				(name "GPIO38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -5.08 180)
+				(length 2.54)
+				(name "GPIO1/ADC1_CH0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -7.62 180)
+				(length 2.54)
+				(name "GPIO2/ADC1_CH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -10.16 180)
+				(length 2.54)
+				(name "GPIO3/ADC1_CH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -12.7 180)
+				(length 2.54)
+				(name "GPIO4/ADC1_CH3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -15.24 180)
+				(length 2.54)
+				(name "GPIO5/ADC1_CH4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -17.78 180)
+				(length 2.54)
+				(name "GPIO6/ADC1_CH5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -20.32 180)
+				(length 2.54)
+				(name "GPIO7/ADC1_CH6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "LMR14050SDDAR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 20.828 -9.906 0)
+			(at 6.858 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32455,7 +33174,7 @@
 			)
 		)
 		(property "Value" "LMR14050SDDAR"
-			(at 10.668 2.286 0)
+			(at -3.302 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32536,8 +33255,8 @@
 		)
 		(symbol "LMR14050SDDAR_1_1"
 			(rectangle
-				(start 2.54 1.27)
-				(end 25.4 -8.89)
+				(start -11.43 5.08)
+				(end 11.43 -5.08)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -32547,7 +33266,7 @@
 				)
 			)
 			(pin output line
-				(at 0 0 0)
+				(at -13.97 3.81 0)
 				(length 2.54)
 				(name "BOOT"
 					(effects
@@ -32565,7 +33284,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at -13.97 1.27 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -32583,7 +33302,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -5.08 0)
+				(at -13.97 -1.27 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -32601,7 +33320,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -7.62 0)
+				(at -13.97 -3.81 0)
 				(length 2.54)
 				(name "RT/SYNC"
 					(effects
@@ -32619,7 +33338,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -11.43 90)
+				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -32637,7 +33356,7 @@
 				)
 			)
 			(pin power_out line
-				(at 27.94 0 180)
+				(at 13.97 3.81 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -32655,7 +33374,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 -2.54 180)
+				(at 13.97 1.27 180)
 				(length 2.54)
 				(name "SS"
 					(effects
@@ -32673,7 +33392,7 @@
 				)
 			)
 			(pin input line
-				(at 27.94 -5.08 180)
+				(at 13.97 -1.27 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -32691,7 +33410,7 @@
 				)
 			)
 			(pin power_in line
-				(at 27.94 -7.62 180)
+				(at 13.97 -3.81 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -32716,7 +33435,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 9.144 3.048 0)
+			(at 1.524 18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32724,7 +33443,7 @@
 			)
 		)
 		(property "Value" "MCP6S26"
-			(at 12.954 1.016 0)
+			(at 5.334 16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32732,7 +33451,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 0 0 0)
+			(at -1.778 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32741,7 +33460,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/devicedoc/21117b.pdf"
-			(at 6.35 9.652 0)
+			(at 0.508 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32750,7 +33469,7 @@
 			)
 		)
 		(property "Description" "Programmable Gain Amplifier"
-			(at 0 0 0)
+			(at -0.254 20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32759,7 +33478,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 0 0 0)
+			(at 1.778 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32778,8 +33497,8 @@
 		)
 		(symbol "MCP6S26_1_1"
 			(rectangle
-				(start 0 0)
-				(end 15.24 -30.48)
+				(start -7.62 15.24)
+				(end 7.62 -15.24)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -32790,7 +33509,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 -6.35 0)
+				(at -10.16 8.89 0)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -32808,7 +33527,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -17.78 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "~{CS}"
 					(effects
@@ -32826,7 +33545,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -20.32 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "MOSI"
 					(effects
@@ -32844,7 +33563,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 -22.86 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "MISO"
 					(effects
@@ -32862,7 +33581,7 @@
 				)
 			)
 			(pin input clock
-				(at -2.54 -25.4 0)
+				(at -10.16 -10.16 0)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -32880,7 +33599,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 2.54 270)
+				(at 0 17.78 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -32898,7 +33617,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -33.02 90)
+				(at 0 -17.78 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -32916,7 +33635,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -6.35 180)
+				(at 10.16 8.89 180)
 				(length 2.54)
 				(name "CH0"
 					(effects
@@ -32934,7 +33653,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -8.89 180)
+				(at 10.16 6.35 180)
 				(length 2.54)
 				(name "CH1"
 					(effects
@@ -32952,7 +33671,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -11.43 180)
+				(at 10.16 3.81 180)
 				(length 2.54)
 				(name "CH2"
 					(effects
@@ -32970,7 +33689,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -13.97 180)
+				(at 10.16 1.27 180)
 				(length 2.54)
 				(name "CH3"
 					(effects
@@ -32988,7 +33707,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -16.51 180)
+				(at 10.16 -1.27 180)
 				(length 2.54)
 				(name "CH4"
 					(effects
@@ -33006,7 +33725,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -19.05 180)
+				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name "CH5"
 					(effects
@@ -33024,7 +33743,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -25.4 180)
+				(at 10.16 -10.16 180)
 				(length 2.54)
 				(name "VREF"
 					(effects
@@ -33049,7 +33768,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 10.16 -2.54 0)
+			(at 2.54 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33057,7 +33776,7 @@
 			)
 		)
 		(property "Value" "TLV1117LVxxyyy"
-			(at 6.096 6.096 0)
+			(at -1.524 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33139,8 +33858,8 @@
 		)
 		(symbol "TLV1117LVxxyyy_1_1"
 			(rectangle
-				(start 2.54 3.81)
-				(end 11.43 -1.27)
+				(start -5.08 2.54)
+				(end 5.08 -2.54)
 				(stroke
 					(width 0.127)
 					(type solid)
@@ -33151,7 +33870,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 2.54 0)
+				(at -7.62 1.27 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -33169,7 +33888,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 0 0)
+				(at -7.62 -1.27 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -33187,7 +33906,7 @@
 				)
 			)
 			(pin power_out line
-				(at 13.97 2.54 180)
+				(at 7.62 1.27 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
