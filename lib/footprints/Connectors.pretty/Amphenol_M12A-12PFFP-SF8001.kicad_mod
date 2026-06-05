@@ -1,0 +1,255 @@
+(footprint "Amphenol_M12A-12PFFP-SF8001"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CONN RCPT FMALE 12POS GOLD SLDR")
+	(tags "M12, Circular, Connector, Interconnector")
+	(property "Reference" "REF**"
+		(at 0 -11.430001 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5547a505-2642-41b7-81e7-4f4df448761e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "Amphenol_M12A-12PFFP-SF8001"
+		(at -0.079938 -10.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "92b5c3b7-dd5c-4d16-bd02-e802e77228cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://amphenolltw.com/down.php?prod_files=494944"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c03e4f7-74f2-4c71-91d6-575ca4ae31c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CONN RCPT FMALE 12POS GOLD SLDR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85f2ad12-08af-424f-a9d7-ff96afaf9fba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufactorer" "Amphenol LTW"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d558b34f-a770-45ef-a620-50b2e6f3e809")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "MPN" "M12A-12PFFP-SF8001"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8b31f9fa-b65b-4377-9c1b-f845671fde57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Product Link" "https://amphenolltw.com/product-info/Metric+Circular+Connector/M-Series.M12.ACode/M12A-12PFFP-SF8001.html?srsltid=AfmBOooMeYcMMEQz4NMm8gheQlQ9fPE0KyLBKzOoWn24WfB601SgHmQm"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bfb70895-8b4f-4f90-9192-e334a268c751")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 9.095262 5.251152) (xy 9.095261 -5.251151) (xy 0 -10.502303) (xy -9.095251 -5.251136) (xy -9.095262 5.251152)
+			(xy 0 10.502303)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7d189b4a-a2f0-488b-9101-5a2c9de3ba6c")
+	)
+	(fp_poly
+		(pts
+			(xy 9.216506 5.321152) (xy 0 10.642304) (xy -9.216506 5.321152) (xy -9.216506 -5.321152) (xy 0 -10.642304)
+			(xy 9.216506 -5.321152)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d8ae9cc3-385d-4da5-a95a-68e5a76a0948")
+	)
+	(fp_poly
+		(pts
+			(xy 8.999999 5.196152) (xy 0 10.392305) (xy -8.999999 5.196152) (xy -8.999999 -5.196152) (xy 0 -10.392305)
+			(xy 9.000017 -5.196183)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "29d38f86-0869-4e9a-b335-c5aa6c8560a2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 11.869999 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a77cc46c-6dac-4e1f-95cd-142fa58717ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.794528 -0.774992 45)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1376651982)
+		(uuid "96fe7885-8881-4937-aa17-2c1c67d4e329")
+	)
+	(pad "2" thru_hole circle
+		(at -0.774992 -2.794528 45)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a29169d7-9db3-4644-b7a0-70a04b049c13")
+	)
+	(pad "3" thru_hole circle
+		(at 1.092223 -2.686457 45)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50ae0f63-e91e-45c4-98ba-b9168b102cce")
+	)
+	(pad "4" thru_hole circle
+		(at 2.505123 -1.460944 45)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1d4905b-7b22-4c32-959b-deefb2034d97")
+	)
+	(pad "5" thru_hole circle
+		(at 2.876009 0.372253 45)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe55f60b-2ca5-4d4d-be9e-0bca7f8a019a")
+	)
+	(pad "6" thru_hole circle
+		(at 2.05061 2.05061 45)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f16588d-b744-4cc9-8251-26dced195082")
+	)
+	(pad "7" thru_hole circle
+		(at 0.372253 2.876009 45)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2affe656-442b-4b80-9268-4b20f5b47f35")
+	)
+	(pad "8" thru_hole circle
+		(at -1.460944 2.505123 45)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "55e281f6-bd13-4664-a3cc-760364672079")
+	)
+	(pad "9" thru_hole circle
+		(at -2.686457 1.092223 45)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bd217f27-e0b2-4155-a160-8def26ed4bb4")
+	)
+	(pad "10" thru_hole circle
+		(at -0.777817 -0.777817 45)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b302b568-f132-4759-801b-cd3dfeecbcc8")
+	)
+	(pad "11" thru_hole circle
+		(at 1.062518 -0.284701 45)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "81a67e01-7229-464f-b8dc-1e9540155bb2")
+	)
+	(pad "12" thru_hole circle
+		(at -0.284701 1.062518 45)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a67b3139-558f-497d-9f3b-ab0c5b167626")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3dmodels/Connectors.3dshapes/Amphenol_M12A-12PFFP-SF8001.stp"
+		(offset
+			(xyz 0 0 20)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -45)
+		)
+	)
+)
