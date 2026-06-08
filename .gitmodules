@@ -1,0 +1,4 @@
+[submodule "library"]
+	path = lib
+	url = ../ECAD-library.git
+	branch = main
