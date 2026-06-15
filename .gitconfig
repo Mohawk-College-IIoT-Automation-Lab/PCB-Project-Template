@@ -1,0 +1,8 @@
+[diff]
+	submodule = log
+[status]
+	submodulesummary = true
+[push]
+	recurseSubmodules = on-demand
+[fetch]
+	recurseSubmodules = on-demand
